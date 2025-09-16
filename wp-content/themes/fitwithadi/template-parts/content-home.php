@@ -216,31 +216,6 @@
     </div>
 </section>
 
-<section class="section" id="schedule">
-    <div class="container schedule">
-        <div class="schedule__intro">
-            <h2><?php esc_html_e( 'Schedule your session', 'fitwithadi' ); ?></h2>
-            <p><?php esc_html_e( 'Reserve private, in-home, or group training with a few taps. Choose the time and format that fits your life and Adi will confirm with a personal welcome message.', 'fitwithadi' ); ?></p>
-            <ul class="schedule__list">
-                <li><?php esc_html_e( 'Real-time availability for studio and travel sessions', 'fitwithadi' ); ?></li>
-                <li><?php esc_html_e( 'Book consultations, recurring training, or group drop-ins', 'fitwithadi' ); ?></li>
-                <li><?php esc_html_e( 'Automatic confirmations and reminder texts', 'fitwithadi' ); ?></li>
-            </ul>
-            <a class="btn btn--dark" href="#contact"><?php esc_html_e( 'Prefer to chat first? Reach out to Adi', 'fitwithadi' ); ?></a>
-        </div>
-        <div class="schedule__embed">
-            <?php if ( shortcode_exists( 'ssa_booking' ) ) : ?>
-                <?php echo do_shortcode( '[ssa_booking]' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
-            <?php else : ?>
-                <div class="schedule__fallback">
-                    <p><?php esc_html_e( 'Our live booking calendar will appear here once the Simply Schedule Appointments plugin is activated.', 'fitwithadi' ); ?></p>
-                    <a class="btn btn--outline" href="#contact"><?php esc_html_e( 'Contact Adi to reserve your time', 'fitwithadi' ); ?></a>
-                </div>
-            <?php endif; ?>
-        </div>
-    </div>
-</section>
-
 <section class="section section--accent" id="cta">
     <div class="container cta">
         <div class="cta__content">
@@ -257,12 +232,12 @@
             <h2><?php esc_html_e( 'Let’s connect', 'fitwithadi' ); ?></h2>
             <p><?php esc_html_e( 'Share your goals and schedule. Adi will reach out within 24 hours with availability and next steps.', 'fitwithadi' ); ?></p>
             <ul class="contact__list">
-                <li><strong><?php esc_html_e( 'Call or text:', 'fitwithadi' ); ?></strong> <a href="tel:+15616010857">(561) 601-0857</a></li>
-                <li><strong><?php esc_html_e( 'Email:', 'fitwithadi' ); ?></strong> <a href="mailto:kisosadi@gmail.com">kisosadi@gmail.com</a></li>
+                <li><strong><?php esc_html_e( 'Call or text:', 'fitwithadi' ); ?></strong> <a href="tel:+13105551234">(310) 555-1234</a></li>
+                <li><strong><?php esc_html_e( 'Email:', 'fitwithadi' ); ?></strong> <a href="mailto:hello@fitwithadi.com">hello@fitwithadi.com</a></li>
                 <li><strong><?php esc_html_e( 'Studio address:', 'fitwithadi' ); ?></strong> <?php esc_html_e( '1225 Ocean Front Walk, Venice, CA', 'fitwithadi' ); ?></li>
             </ul>
         </div>
-        <form class="contact__form" action="mailto:kisosadi@gmail.com" method="post" enctype="text/plain">
+        <form class="contact__form" action="mailto:hello@fitwithadi.com" method="post" enctype="text/plain">
             <div class="form__group">
                 <label for="contact-name"><?php esc_html_e( 'Name', 'fitwithadi' ); ?></label>
                 <input type="text" id="contact-name" name="name" required>

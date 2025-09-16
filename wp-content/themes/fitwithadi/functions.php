@@ -66,7 +66,6 @@ function fitwithadi_fallback_menu() {
     echo '<li><a href="#about">About</a></li>';
     echo '<li><a href="#services">Training</a></li>';
     echo '<li><a href="#experience">Experience</a></li>';
-    echo '<li><a href="#schedule">Schedule</a></li>';
     echo '<li><a href="#testimonials">Success Stories</a></li>';
     echo '<li><a href="#contact">Contact</a></li>';
     echo '</ul>';
