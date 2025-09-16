@@ -216,6 +216,7 @@
     </div>
 </section>
 
+
 <section class="section" id="schedule">
     <div class="container schedule">
         <div class="schedule__intro">
@@ -256,6 +257,7 @@
     </div>
 </section>
 
+
 <section class="section section--accent" id="cta">
     <div class="container cta">
         <div class="cta__content">
@@ -272,12 +274,14 @@
             <h2><?php esc_html_e( 'Let’s connect', 'fitwithadi' ); ?></h2>
             <p><?php esc_html_e( 'Share your goals and schedule. Adi will reach out within 24 hours with availability and next steps.', 'fitwithadi' ); ?></p>
             <ul class="contact__list">
+f
                 <li><strong><?php esc_html_e( 'Call or text:', 'fitwithadi' ); ?></strong> <a href="tel:+15616010857">(561) 601-0857</a></li>
                 <li><strong><?php esc_html_e( 'Email:', 'fitwithadi' ); ?></strong> <a href="mailto:kisosadi@gmail.com">kisosadi@gmail.com</a></li>
                 <li><strong><?php esc_html_e( 'Studio address:', 'fitwithadi' ); ?></strong> <?php esc_html_e( '1225 Ocean Front Walk, Venice, CA', 'fitwithadi' ); ?></li>
             </ul>
         </div>
         <form class="contact__form" action="mailto:kisosadi@gmail.com" method="post" enctype="text/plain">
+
             <div class="form__group">
                 <label for="contact-name"><?php esc_html_e( 'Name', 'fitwithadi' ); ?></label>
                 <input type="text" id="contact-name" name="name" required>

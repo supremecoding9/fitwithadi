@@ -662,6 +662,7 @@ img {
     margin-top: 0.7rem;
 }
 
+
 .schedule {
     display: grid;
     gap: clamp(2rem, 6vw, 4rem);
@@ -724,6 +725,7 @@ img {
 .schedule__fallback p {
     color: var(--color-muted);
 }
+
 
 .cta {
     display: flex;
@@ -912,7 +914,9 @@ textarea {
     .hero__inner,
     .about,
     .resources,
+
     .schedule,
+
     .contact,
     .cta {
         grid-template-columns: 1fr;

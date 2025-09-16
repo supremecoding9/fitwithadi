@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# But not these files
+!.gitignore
+
+# Allow wp-content/themes/fitwithadi
+!wp-content/
+!wp-content/themes/
+!wp-content/themes/fitwithadi/
+!wp-content/themes/fitwithadi/**
