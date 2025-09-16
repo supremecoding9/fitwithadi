@@ -4,13 +4,8 @@
 # But not these files
 !.gitignore
 
-# Keep only your theme
+# Allow wp-content/themes/fitwithadi
 !wp-content/
-wp-content/*
 !wp-content/themes/
-wp-content/themes/*
+!wp-content/themes/fitwithadi/
 !wp-content/themes/fitwithadi/**
-
-# Optional: ignore cache files inside your theme if any
-wp-content/themes/fitwithadi/node_modules/
-wp-content/themes/fitwithadi/*.log
