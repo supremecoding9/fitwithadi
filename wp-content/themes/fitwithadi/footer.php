@@ -9,11 +9,8 @@
         <div class="site-footer__contact">
             <h2 class="h5"><?php esc_html_e( 'Connect', 'fitwithadi' ); ?></h2>
             <ul class="site-footer__list">
-
                 <li><a href="tel:+15616010857">(561) 601-0857</a></li>
-                <li><a href="mailto:kisosadi@gmail.com">kisosadi@gmail.com</a></li>
-
-                <li><?php esc_html_e( 'Sunset Studio · Venice, CA', 'fitwithadi' ); ?></li>
+                <li><a href="mailto:gofitwithadi@gmail.com">gofitwithadi@gmail.com</a></li>
             </ul>
         </div>
         <div class="site-footer__social">
