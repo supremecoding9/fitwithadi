@@ -220,14 +220,14 @@
 <section class="section" id="schedule">
     <div class="container schedule">
         <div class="schedule__intro">
-            <h2><?php esc_html_e( 'Schedule your session', 'fitwithadi' ); ?></h2>
-            <p><?php esc_html_e( 'Reserve private, in-home, or group training with a few taps. Choose the time and format that fits your life and Adi will confirm with a personal welcome message.', 'fitwithadi' ); ?></p>
+            <h2><?php esc_html_e( 'Book your group session', 'fitwithadi' ); ?></h2>
+            <p><?php esc_html_e( 'Browse the latest small-group offerings and lock in your spot. Adi will follow up personally with class details and how to prepare.', 'fitwithadi' ); ?></p>
             <ul class="schedule__list">
-                <li><?php esc_html_e( 'Real-time availability for studio and travel sessions', 'fitwithadi' ); ?></li>
-                <li><?php esc_html_e( 'Book consultations, recurring training, or group drop-ins', 'fitwithadi' ); ?></li>
-                <li><?php esc_html_e( 'Automatic confirmations and reminder texts', 'fitwithadi' ); ?></li>
+                <li><?php esc_html_e( 'Real-time availability for every upcoming group class', 'fitwithadi' ); ?></li>
+                <li><?php esc_html_e( 'Secure your preferred date and time instantly', 'fitwithadi' ); ?></li>
+                <li><?php esc_html_e( 'Automatic confirmations and session reminders', 'fitwithadi' ); ?></li>
             </ul>
-            <a class="btn btn--dark" href="#contact"><?php esc_html_e( 'Prefer to chat first? Reach out to Adi', 'fitwithadi' ); ?></a>
+            <a class="btn btn--dark" href="#contact"><?php esc_html_e( 'Looking for 1:1 training? Contact Adi directly', 'fitwithadi' ); ?></a>
         </div>
         <div class="schedule__embed">
             <?php
@@ -274,10 +274,8 @@
             <h2><?php esc_html_e( 'Let’s connect', 'fitwithadi' ); ?></h2>
             <p><?php esc_html_e( 'Share your goals and schedule. Adi will reach out within 24 hours with availability and next steps.', 'fitwithadi' ); ?></p>
             <ul class="contact__list">
-f
                 <li><strong><?php esc_html_e( 'Call or text:', 'fitwithadi' ); ?></strong> <a href="tel:+15616010857">(561) 601-0857</a></li>
                 <li><strong><?php esc_html_e( 'Email:', 'fitwithadi' ); ?></strong> <a href="mailto:gofitwithadi@gmail.com">gofitwithadi@gmail.com</a></li>
-                <li><strong><?php esc_html_e( 'Studio address:', 'fitwithadi' ); ?></strong> <?php esc_html_e( '1225 Ocean Front Walk, Venice, CA', 'fitwithadi' ); ?></li>
             </ul>
         </div>
         <form class="contact__form" action="mailto:gofitwithadi@gmail.com" method="post" enctype="text/plain">
@@ -291,12 +289,25 @@ f
                 <input type="email" id="contact-email" name="email" required>
             </div>
             <div class="form__group">
+                <label for="contact-phone"><?php esc_html_e( 'Phone number', 'fitwithadi' ); ?></label>
+                <input type="tel" id="contact-phone" name="phone" required>
+            </div>
+            <div class="form__group">
                 <label for="contact-preferences"><?php esc_html_e( 'Preferred training style', 'fitwithadi' ); ?></label>
                 <select id="contact-preferences" name="preference">
                     <option value="studio"><?php esc_html_e( 'Private studio', 'fitwithadi' ); ?></option>
                     <option value="home"><?php esc_html_e( 'In-home', 'fitwithadi' ); ?></option>
                     <option value="group"><?php esc_html_e( 'Group sessions', 'fitwithadi' ); ?></option>
                     <option value="hybrid"><?php esc_html_e( 'Hybrid mix', 'fitwithadi' ); ?></option>
+                    <option value="remote"><?php esc_html_e( 'Remote/Online', 'fitwithadi' ); ?></option>
+                </select>
+            </div>
+            <div class="form__group">
+                <label for="contact-communication"><?php esc_html_e( 'Preferred way to connect', 'fitwithadi' ); ?></label>
+                <select id="contact-communication" name="communication">
+                    <option value="call"><?php esc_html_e( 'Call', 'fitwithadi' ); ?></option>
+                    <option value="text"><?php esc_html_e( 'Text', 'fitwithadi' ); ?></option>
+                    <option value="email"><?php esc_html_e( 'Email', 'fitwithadi' ); ?></option>
                 </select>
             </div>
             <div class="form__group">
