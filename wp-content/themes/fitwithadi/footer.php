@@ -1,8 +1,8 @@
 <footer class="site-footer">
     <div class="container site-footer__inner">
         <div class="site-footer__brand">
-            <a class="site-logo site-logo--footer" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                <span class="site-logo__accent">Fit</span> With Adi
+            <a class="site-logo site-logo--footer" href="<?php echo esc_url( home_url( '/' ) ); ?>" aria-label="<?php esc_attr_e( 'Fit With Adi home', 'fitwithadi' ); ?>">
+                <img class="site-logo__image" src="<?php echo esc_url( get_template_directory_uri() . '/assets/img/logo.svg' ); ?>" alt="<?php esc_attr_e( 'Fit With Adi', 'fitwithadi' ); ?>" width="150" height="48">
             </a>
             <p class="site-footer__tagline"><?php esc_html_e( 'Private and group training in-studio or in the comfort of your home.', 'fitwithadi' ); ?></p>
         </div>

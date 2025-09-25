@@ -10,8 +10,8 @@
 <a class="skip-link" href="#main-content"><?php esc_html_e( 'Skip to content', 'fitwithadi' ); ?></a>
 <header class="site-header" id="top">
     <div class="site-header__inner container">
-        <a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-            <span class="site-logo__accent">Fit</span> With Adi
+        <a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" aria-label="<?php esc_attr_e( 'Fit With Adi home', 'fitwithadi' ); ?>">
+            <img class="site-logo__image" src="<?php echo esc_url( get_template_directory_uri() . '/assets/img/logo.svg' ); ?>" alt="<?php esc_attr_e( 'Fit With Adi', 'fitwithadi' ); ?>" width="160" height="48">
         </a>
         <button class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
             <span class="nav-toggle__label"><?php esc_html_e( 'Menu', 'fitwithadi' ); ?></span>
@@ -29,7 +29,10 @@
             );
             ?>
             <div class="site-nav__cta">
-                <a class="btn btn--small" href="#contact"><?php esc_html_e( 'Book a Session', 'fitwithadi' ); ?></a>
+                <?php
+                $member_access_link = function_exists( 'fitwithadi_get_page_link' ) ? fitwithadi_get_page_link( 'member-access' ) : '#';
+                ?>
+                <a class="btn btn--small" href="<?php echo esc_url( $member_access_link ); ?>"><?php esc_html_e( 'Join FitWithAdi', 'fitwithadi' ); ?></a>
             </div>
         </nav>
     </div>
