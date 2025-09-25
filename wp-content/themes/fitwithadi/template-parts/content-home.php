@@ -276,11 +276,11 @@
             <ul class="contact__list">
 f
                 <li><strong><?php esc_html_e( 'Call or text:', 'fitwithadi' ); ?></strong> <a href="tel:+15616010857">(561) 601-0857</a></li>
-                <li><strong><?php esc_html_e( 'Email:', 'fitwithadi' ); ?></strong> <a href="mailto:kisosadi@gmail.com">kisosadi@gmail.com</a></li>
+                <li><strong><?php esc_html_e( 'Email:', 'fitwithadi' ); ?></strong> <a href="mailto:gofitwithadi@gmail.com">gofitwithadi@gmail.com</a></li>
                 <li><strong><?php esc_html_e( 'Studio address:', 'fitwithadi' ); ?></strong> <?php esc_html_e( '1225 Ocean Front Walk, Venice, CA', 'fitwithadi' ); ?></li>
             </ul>
         </div>
-        <form class="contact__form" action="mailto:kisosadi@gmail.com" method="post" enctype="text/plain">
+        <form class="contact__form" action="mailto:gofitwithadi@gmail.com" method="post" enctype="text/plain">
 
             <div class="form__group">
                 <label for="contact-name"><?php esc_html_e( 'Name', 'fitwithadi' ); ?></label>
