@@ -13,13 +13,11 @@ $testimonials_link  = function_exists( 'fitwithadi_get_page_link' ) ? fitwithadi
 <section class="hero hero--front" id="hero">
     <div class="container hero__inner">
         <div class="hero__content">
-            <p class="eyebrow"><?php esc_html_e( 'Founder · Coach · Community Builder', 'fitwithadi' ); ?></p>
-            <h1><?php esc_html_e( 'Welcome to FitWithAdi.com', 'fitwithadi' ); ?></h1>
-            <p class="lead">
-                <?php
-                esc_html_e( 'I’m Adi—your coach, hype woman, and accountability partner. This is where we blend strength, sweat, and sisterhood to help you feel unstoppable in every season of life.', 'fitwithadi' );
-                ?>
-            </p>
+
+            <p class="eyebrow"><?php esc_html_e( 'Personal Training · Small Group Coaching · Wellness Lifestyle', 'fitwithadi' ); ?></p>
+            <h1><?php esc_html_e( 'Strong looks good on you.', 'fitwithadi' ); ?></h1>
+            <p class="lead"><?php esc_html_e( 'I am Adi - your coach, and accountability partner. This is where we blend strength, sweat, flexibility and balance to help you feel unstoppable in every season of life.', 'fitwithadi' ); ?></p>
+
             <div class="hero__actions">
                 <a class="btn" href="<?php echo esc_url( $member_access_link ); ?>"><?php esc_html_e( 'Create your account', 'fitwithadi' ); ?></a>
                 <a class="btn btn--outline" href="<?php echo esc_url( $content_hub_link ); ?>"><?php esc_html_e( 'Preview the content hub', 'fitwithadi' ); ?></a>
@@ -53,24 +51,22 @@ $testimonials_link  = function_exists( 'fitwithadi_get_page_link' ) ? fitwithadi
         <div class="about__image" aria-hidden="true"></div>
         <div class="about__content">
             <h2><?php esc_html_e( 'Meet Adi', 'fitwithadi' ); ?></h2>
-            <p>
-                <?php
-                esc_html_e( 'Strength changed my life, and now I help women rewrite their own stories with movement. From first-time lifters to lifelong athletes, I create training plans that celebrate progress, protect your body, and keep you coming back for more.', 'fitwithadi' );
-                ?>
-            </p>
-            <div class="feature-grid">
-                <article class="feature-card">
-                    <h3><?php esc_html_e( 'Personal attention', 'fitwithadi' ); ?></h3>
-                    <p><?php esc_html_e( 'Assessments, goal setting, and progressive programming tailored to the way you move and recover.', 'fitwithadi' ); ?></p>
-                </article>
-                <article class="feature-card">
-                    <h3><?php esc_html_e( 'Holistic coaching', 'fitwithadi' ); ?></h3>
-                    <p><?php esc_html_e( 'Strength, mobility, nutrition guidance, and mindset support—delivered with compassion and accountability.', 'fitwithadi' ); ?></p>
-                </article>
-                <article class="feature-card">
-                    <h3><?php esc_html_e( 'Community energy', 'fitwithadi' ); ?></h3>
-                    <p><?php esc_html_e( 'Whether we’re training 1:1 or in a group challenge, you’ll feel supported by a vibrant crew.', 'fitwithadi' ); ?></p>
-                </article>
+
+            <p><?php esc_html_e( 'Fitness changed my life, and now I help youth, adults, and elderly rewrite their own stories with movement. From first-time lifters to lifelong athletes, I create training plans that celebrate progress, protect your body, and keep you coming back for more.', 'fitwithadi' ); ?></p>
+            <div class="about__grid">
+                <div class="about__item">
+                    <h3><?php esc_html_e( 'Personal studio sanctuary', 'fitwithadi' ); ?></h3>
+                    <p><?php esc_html_e( 'Train in a sunlit Venice studio equipped with everything from kettlebells to reformers—no intimidating crowds, just curated vibes.', 'fitwithadi' ); ?></p>
+                </div>
+                <div class="about__item">
+                    <h3><?php esc_html_e( 'In-home training made effortless', 'fitwithadi' ); ?></h3>
+                    <p><?php esc_html_e( 'Adi travels across Los Angeles with customized equipment kits, turning living rooms and home gyms into motivating training grounds.', 'fitwithadi' ); ?></p>
+                </div>
+                <div class="about__item">
+                    <h3><?php esc_html_e( 'Group energy that uplifts', 'fitwithadi' ); ?></h3>
+                    <p><?php esc_html_e( 'Small, high-touch classes capped at eight women keep the focus on form, connection, and serious results.', 'fitwithadi' ); ?></p>
+                </div>
+
             </div>
         </div>
     </div>
