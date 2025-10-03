@@ -3,7 +3,7 @@
         <div class="hero__content">
             <p class="eyebrow"><?php esc_html_e( 'Personal Training · Small Group Coaching · Wellness Lifestyle', 'fitwithadi' ); ?></p>
             <h1><?php esc_html_e( 'Strong looks good on you.', 'fitwithadi' ); ?></h1>
-            <p class="lead"><?php esc_html_e( 'Adi designs personalized, confidence-building workouts for women in Los Angeles—delivered in her boutique studio, your home gym, or energized group sessions that feel like a celebration.', 'fitwithadi' ); ?></p>
+            <p class="lead"><?php esc_html_e( 'I am Adi - your coach, and accountability partner. This is where we blend strength, sweat, flexibility and balance to help you feel unstoppable in every season of life.', 'fitwithadi' ); ?></p>
             <div class="hero__actions">
                 <a class="btn" href="#contact"><?php esc_html_e( 'Book a Session', 'fitwithadi' ); ?></a>
                 <a class="btn btn--outline" href="#services"><?php esc_html_e( 'Explore Training Paths', 'fitwithadi' ); ?></a>
