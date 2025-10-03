@@ -37,7 +37,7 @@
         <div class="about__image" aria-hidden="true"></div>
         <div class="about__content">
             <h2><?php esc_html_e( 'Meet Adi', 'fitwithadi' ); ?></h2>
-            <p><?php esc_html_e( 'Fit With Adi is a space where women are seen, supported, and challenged with intention. Adi blends evidence-based strength training with mindful conditioning to meet you exactly where you are and move you toward where you want to go.', 'fitwithadi' ); ?></p>
+            <p><?php esc_html_e( 'Fitness changed my life, and now I help youth, adults, and elderly rewrite their own stories with movement. From first-time lifters to lifelong athletes, I create training plans that celebrate progress, protect your body, and keep you coming back for more.', 'fitwithadi' ); ?></p>
             <div class="about__grid">
                 <div class="about__item">
                     <h3><?php esc_html_e( 'Personal studio sanctuary', 'fitwithadi' ); ?></h3>
